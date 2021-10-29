@@ -7,11 +7,6 @@ import HighlightedQuote from '../components/quotes/HighlightedQuote';
 import Comments from '../components/comments/Comments';
 import LoadingSpinner from '../components/UI/LoadingSpinner';
 
-// const DUMMY_QUOTES = [
-//     { id: 'q1', author: 'Voja', text: 'The Bear asked the Rabbit why is his hair falling off' },
-//     { id: 'q2', author: 'Princess Dileya', text: 'Like the Sun you shine, place of birth of ours' }
-// ];
-
 const QuoteDetail = () => {
     const match = useRouteMatch();
     const params = useParams();
